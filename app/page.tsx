@@ -1,3 +1,9 @@
+import SpotLight from "./src/components/SpotLight";
+
 export default function Page() {
-    return <h1>Hello, Next.js!</h1>;
+    return (
+        <>
+            <SpotLight />
+        </>
+    );
 }
