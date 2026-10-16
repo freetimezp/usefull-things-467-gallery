@@ -137,7 +137,7 @@ export default function SpotLight() {
                             onClick={isMobile ? () => focusPanel(i) : undefined}
                         >
                             <img
-                                src={`/images/${i + 1}.jpg`}
+                                src={`${process.env.NEXT_PUBLIC_BASE_PATH}/images/${i + 1}.jpg`}
                                 alt={`Romantic archival portrait ${i + 1}`}
                                 draggable={false}
                             />
