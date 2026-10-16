@@ -1,4 +1,4 @@
-import SpotLight from "./src/components/SpotLight";
+import SpotLight from "./components/SpotLight";
 
 export default function Page() {
     return (
