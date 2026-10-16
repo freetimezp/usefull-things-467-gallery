@@ -154,10 +154,7 @@ a {
     box-shadow:
         0 4px 12px rgba(55, 35, 25, 0.08),
         inset 0 0 0 3px rgba(238, 229, 213, 0.45);
-    transition:
-        left 1s cubic-bezier(0.075, 0.82, 0.165, 1),
-        width 1s cubic-bezier(0.075, 0.82, 0.165, 1),
-        box-shadow 0.7s ease;
+    transition: box-shadow 0.7s ease;
     will-change: left, width;
 }
 
@@ -212,7 +209,7 @@ a {
 
 .spotlight-panel:hover img {
     filter: sepia(0.18) saturate(0.92) contrast(1.03);
-    transform: translateX(-50%) scale(1.035);
+    transform: translateX(-50%) scale(1.075);
 }
 
 /* Focused frame */
@@ -224,9 +221,7 @@ a {
     box-shadow:
         0 0 0 5px rgba(238, 229, 213, 0.72),
         0 0 0 6px rgba(113, 60, 64, 0.28);
-    transition:
-        left 1s cubic-bezier(0.075, 0.82, 0.165, 1),
-        width 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: width 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     will-change: left, width;
     pointer-events: none;
     z-index: 100;
