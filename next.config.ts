@@ -1,6 +1,8 @@
+import type { NextConfig } from "next";
+
 const repo = "usefull-things-467-gallery";
 
-const nextConfig = {
+const nextConfig: NextConfig = {
     devIndicators: false,
 
     output: "export",
